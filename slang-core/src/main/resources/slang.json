@@ -1,109 +1,441 @@
 [
   {
-    "term": "새끼",
-    "language": "ko",
+    "term": "씨발",
+    "type": "욕설",
+    "lang": "ko",
+    "meaning": "한국어에서 가장 흔한 욕설. 분노, 욕, 감탄사로 사용.",
     "variants": [
-      "새끼",
-      "새키",
-      "새꺄"
+      "씨바",
+      "씨팔",
+      "씨펄",
+      "씨팍",
+      "씨빨",
+      "씨빠",
+      "씨뱅",
+      "씨봉알",
+      "씨부랄",
+      "씨부럴",
+      "씨부리",
+      "씨부렁",
+      "씨불",
+      "씨브랄",
+      "씨뽀랄",
+      "씨8",
+      "씨댕"
     ]
   },
   {
-    "term": "씨발",
-    "language": "ko",
+    "term": "좆",
+    "type": "성적 욕설",
+    "lang": "ko",
+    "meaning": "남성 성기를 비하적으로 지칭. 욕설로만 쓰임.",
     "variants": [
-      "씨발",
-      "씨바",
-      "씨팔",
-      "ㅅㅂ",
-      "시발",
-      "ㅅㅍ"
+      "좃",
+      "좇",
+      "좆같다",
+      "좆까",
+      "좆먹어"
+    ]
+  },
+  {
+    "term": "새끼",
+    "type": "인신공격",
+    "lang": "ko",
+    "meaning": "상대방을 모욕하는 대표적인 욕설.",
+    "variants": [
+      "새끼",
+      "새키",
+      "새꺄",
+      "개새",
+      "개색끼",
+      "개세끼",
+      "개세이",
+      "개쉐이",
+      "개쉑",
+      "개쉽",
+      "개시키",
+      "개자식",
+      "개좆",
+      "개년",
+      "개놈",
+      "개뇬"
+    ]
+  },
+  {
+    "term": "병신",
+    "type": "인신공격",
+    "lang": "ko",
+    "meaning": "지적/신체적 비하를 담은 모욕 표현.",
+    "variants": [
+      "병쉰",
+      "븅신",
+      "븅.븅신",
+      "붕신"
+    ]
+  },
+  {
+    "term": "지랄",
+    "type": "욕설",
+    "lang": "ko",
+    "meaning": "분노, 욕설, 헛소리라는 의미.",
+    "variants": [
+      "지럴",
+      "지롤",
+      "쥐랄",
+      "쥐롤",
+      "재랄"
+    ]
+  },
+  {
+    "term": "존나",
+    "type": "강조/비속어",
+    "lang": "ko",
+    "meaning": "매우, 아주를 의미하나 비속어.",
+    "variants": [
+      "존니"
     ]
   },
   {
     "term": "fuck",
-    "language": "en",
+    "type": "욕설",
+    "lang": "en",
+    "meaning": "가장 보편적인 영어 욕설.",
     "variants": [
+      "fuck you",
       "f*ck",
-      "fuxx",
-      "fuq",
       "f***",
-      "phuck"
+      "fuxx",
+      "fuq"
     ]
+  },
+  {
+    "term": "bitch",
+    "type": "성적/여성 비하",
+    "lang": "en",
+    "meaning": "여성을 비하하는 욕설.",
+    "variants": [
+      "biatch",
+      "son of a bitch"
+    ]
+  },
+  {
+    "term": "asshole",
+    "type": "인신공격",
+    "lang": "en",
+    "meaning": "비열한 사람을 욕할 때.",
+    "variants": [
+      "dumbass",
+      "jackass"
+    ]
+  },
+  {
+    "term": "motherfucker",
+    "type": "강한 욕설",
+    "lang": "en",
+    "meaning": "극도로 모욕적인 표현.",
+    "variants": [
+      "mf",
+      "mofo"
+    ]
+  },
+  {
+    "term": "slut",
+    "type": "성적 비하",
+    "lang": "en",
+    "meaning": "여성을 성적으로 비하할 때.",
+    "variants": [
+      "whore",
+      "hoe",
+      "skank"
+    ]
+  },
+  {
+    "term": "dick",
+    "type": "성적 욕설",
+    "lang": "en",
+    "meaning": "남성 성기를 속되게 지칭.",
+    "variants": [
+      "cock",
+      "prick"
+    ]
+  },
+  {
+    "term": "pussy",
+    "type": "성적 욕설",
+    "lang": "en",
+    "meaning": "여성 성기를 비하적 의미로 사용.",
+    "variants": [
+      "cunt"
+    ]
+  },
+  {
+    "term": "bullshit",
+    "type": "모욕",
+    "lang": "en",
+    "meaning": "헛소리, 거짓말을 욕설적으로 표현.",
+    "variants": [
+      "bullsh*t",
+      "bs"
+    ]
+  },
+  {
+    "term": "faen",
+    "type": "욕설",
+    "lang": "no",
+    "meaning": "노르웨이어에서 'fuck'에 해당.",
+    "variants": []
+  },
+  {
+    "term": "vittu",
+    "type": "성적 욕설",
+    "lang": "fi",
+    "meaning": "핀란드어 대표 욕설, 여성 성기/‘fuck’.",
+    "variants": []
+  },
+  {
+    "term": "helvete",
+    "type": "욕설",
+    "lang": "no",
+    "meaning": "'hell'에 해당하는 감탄사.",
+    "variants": []
+  },
+  {
+    "term": "kut",
+    "type": "성적 욕설",
+    "lang": "nl",
+    "meaning": "네덜란드어에서 'cunt'에 해당.",
+    "variants": []
+  },
+  {
+    "term": "くそ",
+    "type": "욕설",
+    "lang": "ja",
+    "meaning": "'shit'에 해당하는 일본어 욕설.",
+    "variants": []
+  },
+  {
+    "term": "manko",
+    "type": "성적 욕설",
+    "lang": "ja",
+    "meaning": "여성 성기를 의미하는 극도로 비속한 표현.",
+    "variants": []
+  },
+  {
+    "term": "diu",
+    "type": "성적 욕설",
+    "lang": "zh-Cantonese",
+    "meaning": "광둥어 'fuck'에 해당.",
+    "variants": []
+  },
+  {
+    "term": "chi-bai",
+    "type": "성적 욕설",
+    "lang": "zh-Hokkien",
+    "meaning": "vagina를 가리키는 욕설.",
+    "variants": []
+  },
+  {
+    "term": "caralho",
+    "type": "성적 욕설",
+    "lang": "pt",
+    "meaning": "남성 성기를 의미하는 포르투갈어 욕설.",
+    "variants": []
   },
   {
     "term": "puta",
-    "language": "es",
+    "type": "성적 비하",
+    "lang": "es/pt",
+    "meaning": "‘whore’, ‘bitch’ 의미.",
+    "variants": []
+  },
+  {
+    "term": "mierda",
+    "type": "욕설",
+    "lang": "es",
+    "meaning": "'shit'에 해당하는 욕설.",
+    "variants": []
+  },
+  {
+    "term": "joder",
+    "type": "욕설",
+    "lang": "es",
+    "meaning": "'fuck'에 해당하는 욕설.",
+    "variants": []
+  },
+  {
+    "term": "gilipollas",
+    "type": "인신공격",
+    "lang": "es",
+    "meaning": "'asshole', 'jerk' 의미.",
+    "variants": []
+  },
+  {
+    "term": "пиздец",
+    "type": "욕설",
+    "lang": "ru",
+    "meaning": "극도의 불만이나 'fuck' 느낌.",
+    "variants": []
+  },
+  {
+    "term": "блядь",
+    "type": "욕설",
+    "lang": "ru",
+    "meaning": "'whore', 'fuck' 느낌.",
     "variants": [
-      "puto",
-      "putas",
-      "putazo",
-      "hijo de puta"
+      "blyad"
     ]
   },
   {
-    "term": "сука",
-    "language": "ru",
+    "term": "хуй",
+    "type": "성적 욕설",
+    "lang": "ru",
+    "meaning": "'dick' 의미.",
     "variants": [
-      "суки",
-      "сучка",
-      "сукин"
+      "hui"
     ]
   },
   {
-    "term": "لعنة",
-    "language": "ar",
+    "term": "حمار",
+    "type": "인신공격",
+    "lang": "ar",
+    "meaning": "당나귀 → 'ass' 의미.",
     "variants": [
-      "يلعن",
-      "ملعون",
-      "يلعنك"
+      "hemar"
     ]
   },
   {
-    "term": "चूतिया",
-    "language": "hi",
+    "term": "كل خرة",
+    "type": "욕설",
+    "lang": "ar",
+    "meaning": "'eat shit' 의미.",
     "variants": [
-      "चुत",
-      "चुतिये",
-      "चुतिया"
+      "kol khara"
+    ]
+  },
+  {
+    "term": "كس أمك",
+    "type": "성적 욕설",
+    "lang": "ar",
+    "meaning": "'fuck your mother' 의미.",
+    "variants": [
+      "kess ummak"
+    ]
+  },
+  {
+    "term": "madarchod",
+    "type": "욕설",
+    "lang": "hi",
+    "meaning": "힌디어 욕설, 'motherfucker'.",
+    "variants": [
+      "MC"
+    ]
+  },
+  {
+    "term": "behanchod",
+    "type": "욕설",
+    "lang": "hi",
+    "meaning": "'sister fucker' 의미.",
+    "variants": [
+      "BC"
+    ]
+  },
+  {
+    "term": "randi",
+    "type": "성적 비하",
+    "lang": "hi",
+    "meaning": "매춘부, 'whore'.",
+    "variants": []
+  },
+  {
+    "term": "chutiya",
+    "type": "욕설",
+    "lang": "hi",
+    "meaning": "'idiot', 'fucker' 의미.",
+    "variants": []
+  },
+  {
+    "term": "putain",
+    "type": "욕설",
+    "lang": "fr",
+    "meaning": "프랑스어 욕설, 원래 'whore'.",
+    "variants": []
+  },
+  {
+    "term": "connard",
+    "type": "인신공격",
+    "lang": "fr",
+    "meaning": "'asshole', 'jerk' 의미.",
+    "variants": [
+      "con"
+    ]
+  },
+  {
+    "term": "salope",
+    "type": "여성 비하",
+    "lang": "fr",
+    "meaning": "'slut', 'bitch'.",
+    "variants": []
+  },
+  {
+    "term": "cazzo",
+    "type": "성적 욕설",
+    "lang": "it",
+    "meaning": "남성 성기, 'fuck' 느낌.",
+    "variants": []
+  },
+  {
+    "term": "stronzo",
+    "type": "욕설",
+    "lang": "it",
+    "meaning": "'asshole'.",
+    "variants": []
+  },
+  {
+    "term": "vaffanculo",
+    "type": "욕설",
+    "lang": "it",
+    "meaning": "'fuck off'.",
+    "variants": []
+  },
+  {
+    "term": "妈的",
+    "type": "욕설",
+    "lang": "zh-CN",
+    "meaning": "중국어 간체, 'damn', 'fuck'.",
+    "variants": [
+      "他妈的",
+      "他媽的"
     ]
   },
   {
     "term": "操你妈",
-    "language": "zh-CN",
+    "type": "성적 욕설",
+    "lang": "zh-CN/zh-TW",
+    "meaning": "'fuck your mother' 의미.",
     "variants": [
       "肏你妈",
-      "艹你妈",
-      "你妈逼"
+      "肏你媽",
+      "cao ni ma"
     ]
   },
   {
-    "term": "幹你娘",
-    "language": "zh-TW",
+    "term": "傻逼",
+    "type": "인신공격",
+    "lang": "zh-CN",
+    "meaning": "중국어 욕설, 'stupid cunt'.",
     "variants": [
-      "幹你媽",
-      "靠北",
-      "幹",
-      "靠腰"
+      "煞笔",
+      "沙比",
+      "sha bi"
     ]
   },
   {
-    "term": "merde",
-    "language": "fr",
+    "term": "王八蛋",
+    "type": "인신공격",
+    "lang": "zh-CN/zh-TW",
+    "meaning": "'bastard', 'son of a bitch'.",
     "variants": [
-      "putain",
-      "con",
-      "salope"
-    ]
-  },
-  {
-    "term": "scheisse",
-    "language": "de",
-    "variants": [
-      "arschloch",
-      "fotze",
-      "wichser"
+      "龜兒子"
     ]
   }
 ]
-
