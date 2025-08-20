@@ -1,0 +1,3 @@
+rootProject.name = 'slang-filter'
+
+include("slang-core", "slang-spring-boot-starter")

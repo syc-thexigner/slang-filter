@@ -1,0 +1,26 @@
+plugins {
+    id 'java'
+    id 'java-library'
+    id 'maven-publish'
+}
+
+dependencies {
+    api project(":slang-core")
+
+    // Spring Boot 기본 지원
+    implementation "org.springframework.boot:spring-boot-autoconfigure:3.2.0"
+    implementation "org.springframework.boot:spring-boot-starter:3.2.0"
+
+    annotationProcessor "org.springframework.boot:spring-boot-configuration-processor:3.2.0"
+
+    testImplementation "org.springframework.boot:spring-boot-starter-test:3.2.0"
+}
+
+publishing {
+    publications {
+        mavenJava(MavenPublication) {
+            from components.java
+            artifactId = "slang-spring-boot-starter"
+        }
+    }
+}

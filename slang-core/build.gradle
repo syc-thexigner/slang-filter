@@ -1,0 +1,21 @@
+plugins {
+    id 'java'
+    id 'maven-publish'
+}
+
+dependencies {
+    // JSON 파싱
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.17.0'
+
+    // JUnit 5
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.10.0'
+}
+
+publishing {
+    publications {
+        mavenJava(MavenPublication) {
+            from components.java
+            artifactId = "slang-core"
+        }
+    }
+}
