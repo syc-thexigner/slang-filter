@@ -128,9 +128,6 @@ org.dolgo.filter.SlangAutoConfiguration
 * `language`: ISO 639-1 등 간단 코드(선택)
 * `variants`: 오타/치환/별칭 등 변형 목록
 
-> 만약 기존에 `{ "slang_glossary": [ ... ] }` 형태를 쓰고 있다면,
-> `SlangDictionary`를 그 구조에 맞게 수정하거나 JSON을 배열 최상위로 맞춰주세요.
-
 ---
 
 ## 빌드 & 테스트
@@ -190,10 +187,6 @@ echo "✅ Done! Artifacts published to ~/.m2/repository/org/dolgo/"
 
     * starter는 `java-library` 플러그인을 사용하고, `api project(":slang-core")` 로 **core를 외부에 노출**
       → starter만 추가해도 `SlangFilter`를 직접 주입/사용 가능
-* **Lombok & 소스 배포**
-
-    * `slang-core`에 `io.freefair.lombok` 플러그인 사용 → **delombok된 sources.jar** 생성
-      → 소비자 IDE에서 소스 열어도 `getTerm()` 등 실제 메서드가 보임
 * **자원 로딩**
 
     * `SlangDictionary`는 클래스패스에서 `slang.json`을 읽습니다.
